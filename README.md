@@ -43,8 +43,9 @@ HTML, CSS
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://leafy-duckanoo-fc47d4.netlify.app/)
-- Right click > Inspect > Choose Mobile version
+- [Live Demo Link](https://ayaderaghul.github.io/linhchinguyen.github.io/)
+- Open to see desktop version
+- To see mobile version: Right click > Inspect > Responsive Design Mode
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
