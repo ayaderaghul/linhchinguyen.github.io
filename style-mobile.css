@@ -74,7 +74,7 @@ nav {
   text-align: center;
 
   /* Primary/B400 */
-  color: #2538e4;
+  color: #6070ff;
 
   /* Inside auto layout */
   flex: none;
@@ -376,7 +376,7 @@ nav > i:hover {
   line-height: 16px;
 
   /* Neutrals/N100 */
-  color: #344563;
+  color: #7a869a;
 
   /* Inside auto layout */
   flex: none;
@@ -397,7 +397,7 @@ nav > i:hover {
   line-height: 16px;
 
   /* Neutrals/N100 */
-  color: #28313f;
+  color: #7a869a;
 
   /* Inside auto layout */
   flex: none;
@@ -465,7 +465,7 @@ nav > i:hover {
   letter-spacing: 0.03em;
 
   /* Primary/B400 */
-  color: #2a3de6;
+  color: #6070ff;
 }
 
 .javascript {
@@ -506,23 +506,24 @@ nav > i:hover {
   line-height: 24px;
 
   /* Primary/B500 */
-  color: #6070FF;
+  color: #6070ff;
   margin-top: 10px;
   margin-left: 10%;
-  background: #FFFFFF;
+  background: #fff;
 }
 
 .button:hover {
-  color: #FFFFFF;
-  background: #6070FF;
-  box-shadow: 0px 8px 16px rgba(64, 83, 252, 0.24);
+  color: gray;
+  color: #fff;
+  background: #6070ff;
+  box-shadow: 0px 8px 16px rgba(64, 83, 252, 24%);
   border-radius: 8px;
   cursor: pointer;
 }
 
-.button:active{
-  background: #2230D2;
-  color: #FFFFFF;
+.button:active {
+  background: #2230d2;
+  color: #fff;
 }
 
 .snapshot2 {
