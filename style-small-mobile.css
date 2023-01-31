@@ -380,7 +380,7 @@
     line-height: 16px;
 
     /* Neutrals/N100 */
-    color: #344563;
+    color: #7a869a;
 
     /* Inside auto layout */
     flex: none;
@@ -401,7 +401,7 @@
     line-height: 16px;
 
     /* Neutrals/N100 */
-    color: #344563;
+    color: #7a869a;
 
     /* Inside auto layout */
     flex: none;
@@ -469,7 +469,7 @@
     letter-spacing: 0.03em;
 
     /* Primary/B400 */
-    color: #293be0;
+    color: #6070ff;
   }
 
   .javascript {
@@ -515,8 +515,16 @@
   }
 
   .button:hover {
-    color: gray;
+    color: #fff;
+    background: #6070ff;
+    box-shadow: 0 8px 16px rgb(64 83 252 / 24%);
+    border-radius: 8px;
     cursor: pointer;
+  }
+
+  .button:active {
+    background: #2230d2;
+    color: #fff;
   }
 
   .snapshot2 {
@@ -526,7 +534,7 @@
     background-image: url("Microverse-Student-Project-1/Snapshoot\ Portfolio\ \(1\).png");
     background-size: cover;
     background-position: center;
-    margin-left: 30px;
+    margin-left: 0;
     margin-right: -10px;
   }
 
@@ -826,7 +834,7 @@
     line-height: 24px;
 
     /* Neutrals/N60 */
-    color: #5d6269;
+    color: #b3bac5;
   }
 
   .contact-button-container {
