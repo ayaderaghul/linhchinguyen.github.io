@@ -1,8 +1,85 @@
 /* --- VERSION FOR SMALL SCREEN --- */
 @media only screen and (min-width: 768px) {
+  * {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+  }
+
   body {
     font-family: Poppins, sans-serif;
-    background: #f4f5f7;
+    background: #dbdddf;
+  }
+
+  #navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 72px;
+    padding: 0 40px;
+  }
+
+  #navigation .logo {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 20px;
+    color: #3142d6;
+    margin-left: 8rem;
+    cursor: pointer;
+  }
+
+  #navigation .navlinks .links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+  }
+
+  #navigation .navlinks .links li {
+    margin: 0 10px;
+  }
+
+  #navigation .navlinks .links li a {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    color: #344563;
+  }
+
+  .tab-title > i {
+    margin-right: 50px;
+  }
+
+  .icons > i {
+    font-size: 12px;
+    margin: 1px;
+  }
+
+  .subtitle > i {
+    color: #c1c7d0;
+    width: 8px;
+    height: 8px;
+    padding: 0 15px;
+  }
+
+  #navigation .hamburger i {
+    font-size: 24px;
+    color: #344563;
+    cursor: pointer;
+  }
+
+  #navigation .navlinks {
+    display: block;
+  }
+
+  #navigation .hamburger {
+    display: none;
   }
 
   .container {
@@ -59,43 +136,6 @@
   .icons {
     margin-top: 9px;
     padding-right: 20px;
-  }
-
-  .logo {
-    /* MY LOGO */
-    width: 76px;
-    height: 20px;
-    font-family: Poppins, sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 20px;
-
-    /* Primary/B400 */
-    color: #3245eb;
-
-    /* Inside auto layout */
-    padding-top: 3px;
-    margin-left: 15px;
-    text-decoration: none;
-  }
-
-  .logo:hover {
-    color: gray;
-    cursor: pointer;
-  }
-
-  nav > i {
-    padding-right: 20px;
-  }
-
-  .tab-title > i {
-    margin-right: 50px;
-  }
-
-  .icons > i {
-    font-size: 12px;
-    margin: 1px;
   }
 
   .background {
@@ -218,13 +258,6 @@
     margin-top: 40px;
   }
 
-  .subtitle > i {
-    color: #c1c7d0;
-    width: 8px;
-    height: 8px;
-    padding: 0 15px;
-  }
-
   .circle2 {
     margin-left: -30px;
   }
@@ -241,11 +274,6 @@
 
   .year4 {
     margin-left: -20px;
-  }
-
-  nav > i:hover {
-    color: gray;
-    cursor: pointer;
   }
 
   .media-item:hover {
@@ -289,6 +317,8 @@
 
   .info {
     flex: 1;
+    display: flex;
+    flex-direction: column;
     width: 50%;
   }
 
@@ -454,6 +484,7 @@
 
   .button {
     /* Normal Button/Secondary/Enabled */
+    margin-top: 2rem;
     box-sizing: border-box;
     position: absolute;
     top: 50px;
@@ -476,7 +507,7 @@
     line-height: 24px;
 
     /* Primary/B500 */
-    color: #396df2;
+    color: #2455d1;
   }
 
   .button:hover {
@@ -702,7 +733,7 @@
   }
 
   .contact-container {
-    width: 40%;
+    width: 100%;
     margin: auto;
     color: #fff;
     height: 100%;
@@ -732,7 +763,7 @@
     font-weight: 400;
     font-size: 20px;
     line-height: 28px;
-    margin-top: -30px;
+    margin-top: 20px;
 
     /* or 140% */
     text-align: center;
@@ -1140,7 +1171,7 @@
     line-height: 16px;
 
     /* Neutrals/N100 */
-    color: #7a869a;
+    color: #363c46;
 
     /* Inside auto layout */
     flex: none;
@@ -1239,9 +1270,10 @@
   }
 
   .button-container {
-    position: relative;
+    /* position: relative; */
     width: 80%;
     margin-left: 0;
+    align-self: start;
   }
 
   .button {
@@ -1268,11 +1300,12 @@
     line-height: 24px;
 
     /* Primary/B500 */
-    color: #396df2;
+    color: #1a48bd;
   }
 
   .button:hover {
-    color: gray;
+    color: #fff;
+    background-color: #396df2;
     cursor: pointer;
   }
 
@@ -1496,7 +1529,7 @@
   }
 
   .contact-container {
-    width: 40%;
+    width: 100%;
     margin: auto;
     color: #fff;
     height: 100%;
@@ -1526,7 +1559,7 @@
     font-weight: 400;
     font-size: 20px;
     line-height: 28px;
-    margin-top: -30px;
+    margin-top: 20px;
 
     /* or 140% */
     text-align: center;

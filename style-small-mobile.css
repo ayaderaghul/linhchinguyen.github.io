@@ -7,6 +7,70 @@
     overflow-x: hidden;
   }
 
+  #navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 72px;
+    padding: 0 10px;
+  }
+
+  #navigation .logo {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 20px;
+    color: #3142d6;
+    text-decoration: none;
+  }
+
+  #navigation .navlinks {
+    display: none;
+  }
+
+  #navigation .navlinks .links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+  }
+
+  #navigation .navlinks .links li {
+    margin: 0 10px;
+  }
+
+  #navigation .navlinks .links li a {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    color: #344563;
+  }
+
+  .tab-title > i {
+    margin-right: 50px;
+  }
+
+  .icons > i {
+    font-size: 12px;
+    margin: 1px;
+  }
+
+  .subtitle > i {
+    color: #c1c7d0;
+    width: 8px;
+    height: 8px;
+    padding: 0 20px;
+  }
+
+  #navigation .hamburger i {
+    font-size: 24px;
+    color: #344563;
+    cursor: pointer;
+  }
+
   .container {
     width: 90%;
     height: 100%;
@@ -59,54 +123,8 @@
     padding-right: 20px;
   }
 
-  .logo {
-    /* MY LOGO */
-    width: 76px;
-    height: 20px;
-    font-family: Poppins, sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 20px;
-
-    /* flex */
-    display: flex;
-    align-items: center;
-    text-align: center;
-
-    /* Primary/B400 */
-    color: #3142d6;
-
-    /* Inside auto layout */
-    flex: none;
-    border: 0;
-    flex-grow: 0;
-    padding-top: 3px;
-    margin-left: 15px;
-    text-decoration: none;
-  }
-
   .right-nav {
     display: none;
-  }
-
-  .logo:hover {
-    color: gray;
-    cursor: pointer;
-  }
-
-  nav > i {
-    padding-right: 20px;
-    color: #6070ff;
-  }
-
-  .tab-title > i {
-    margin-right: 50px;
-  }
-
-  .icons > i {
-    font-size: 12px;
-    margin: 1px;
   }
 
   .background {
@@ -230,18 +248,6 @@
 
   .media-items:hover {
     color: lightgray;
-    cursor: pointer;
-  }
-
-  .subtitle > i {
-    color: #c1c7d0;
-    width: 8px;
-    height: 8px;
-    padding: 0 20px;
-  }
-
-  nav > i:hover {
-    color: gray;
     cursor: pointer;
   }
 
@@ -475,6 +481,8 @@
   }
 
   .button {
+    margin-top: 1.5rem;
+
     /* Normal Button/Secondary/Enabled */
     box-sizing: border-box;
     position: absolute;
@@ -503,8 +511,7 @@
     line-height: 24px;
 
     /* Primary/B500 */
-    color: #396df2;
-    margin-top: 10px;
+    color: #1c49b9;
   }
 
   .button:hover {
@@ -665,7 +672,8 @@
   }
 
   .about-button:hover {
-    color: gray;
+    color: #fff;
+    background-color: #3142d6;
     cursor: pointer;
   }
 
