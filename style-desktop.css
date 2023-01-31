@@ -2,7 +2,7 @@
 @media only screen and (min-width: 768px) {
   body {
     font-family: Poppins, sans-serif;
-    background: #f4f5f7;
+    background: #e5e5e5;
   }
 
   .container {
@@ -72,7 +72,7 @@
     line-height: 20px;
 
     /* Primary/B400 */
-    color: #3245eb;
+    color: #6070ff;
 
     /* Inside auto layout */
     padding-top: 3px;
@@ -348,7 +348,7 @@
     line-height: 16px;
 
     /* Neutrals/N100 */
-    color: #344563;
+    color: #7a869a;
 
     /* Inside auto layout */
     flex: none;
@@ -370,7 +370,7 @@
     line-height: 16px;
 
     /* Neutrals/N100 */
-    color: #4c4f55;
+    color: #7a869a;
 
     /* Inside auto layout */
     flex: none;
@@ -439,7 +439,7 @@
     letter-spacing: 0.03em;
 
     /* Primary/B400 */
-    color: #293cee;
+    color: #6070ff;
   }
 
   .javascript {
@@ -476,12 +476,20 @@
     line-height: 24px;
 
     /* Primary/B500 */
-    color: #396df2;
+    color: #6070ff;
   }
 
   .button:hover {
-    color: gray;
+    color: #fff;
+    background: #6070ff;
+    box-shadow: 0px 8px 16px rgba(64, 83, 252, 0.24);
+    border-radius: 8px;
     cursor: pointer;
+  }
+
+  .button:active {
+    background: #2230d2;
+    color: #fff;
   }
 
   .snapshot2 {
@@ -624,9 +632,51 @@
     color: #396df2;
   }
 
+
+  .about-button-container {
+    position: relative;
+    width: 80%;
+    margin-left: 0;
+  }
+
+  .about-button {
+    /* Normal Button/Secondary/Enabled */
+    box-sizing: border-box;
+    position: absolute;
+    top: 50px;
+
+    /* Auto layout */
+    padding: 12px;
+    gap: 10px;
+    width: 160px;
+    height: 48px;
+
+    /* Primary/B400 */
+    border: 1px solid #6070ff;
+    border-radius: 8px;
+
+    /* Button /Normal */
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 24px;
+
+    /* Primary/B500 */
+    color: #6070ff;
+  }
+
   .about-button:hover {
-    color: gray;
+    color: #fff;
+    background: #6070ff;
+    box-shadow: 0px 8px 16px rgba(64, 83, 252, 0.24);
+    border-radius: 8px;
     cursor: pointer;
+  }
+
+  .about-button:active {
+    background: #2230d2;
+    color: #fff;
   }
 
   .vert-tabs {
@@ -793,7 +843,7 @@
     line-height: 24px;
 
     /* Neutrals/N60 */
-    color: #424346;
+    color: #b3bac5;
   }
 
   .contact-button-container {
@@ -1162,7 +1212,7 @@
     line-height: 16px;
 
     /* Neutrals/N100 */
-    color: #344563;
+    color: #7a869a;
 
     /* Inside auto layout */
     flex: none;
@@ -1231,7 +1281,7 @@
     letter-spacing: 0.03em;
 
     /* Primary/B400 */
-    color: #2d41f3;
+    color: #6070ff;
   }
 
   .javascript {
@@ -1587,7 +1637,7 @@
     line-height: 24px;
 
     /* Neutrals/N60 */
-    color: #5e6166;
+    color: #b3bac5;
   }
 
   .contact-button-container {
