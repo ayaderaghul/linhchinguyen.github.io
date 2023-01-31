@@ -74,7 +74,7 @@ nav {
   text-align: center;
 
   /* Primary/B400 */
-  color: #6070ff;
+  color: #2538e4;
 
   /* Inside auto layout */
   flex: none;
@@ -376,7 +376,7 @@ nav > i:hover {
   line-height: 16px;
 
   /* Neutrals/N100 */
-  color: #7a869a;
+  color: #344563;
 
   /* Inside auto layout */
   flex: none;
@@ -397,7 +397,7 @@ nav > i:hover {
   line-height: 16px;
 
   /* Neutrals/N100 */
-  color: #7a869a;
+  color: #28313f;
 
   /* Inside auto layout */
   flex: none;
@@ -465,7 +465,7 @@ nav > i:hover {
   letter-spacing: 0.03em;
 
   /* Primary/B400 */
-  color: #6070ff;
+  color: #2a3de6;
 }
 
 .javascript {
