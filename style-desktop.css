@@ -1,4 +1,3 @@
-/* --- VERSION FOR SMALL SCREEN --- */
 @media only screen and (min-width: 768px) {
   * {
     margin: 0;
@@ -10,7 +9,7 @@
 
   body {
     font-family: Poppins, sans-serif;
-    background: #dbdddf;
+    background: #b9b9b9;
   }
 
   #navigation {
@@ -147,58 +146,39 @@
 
   .title {
     flex: 1;
-
-    /* Primary Text */
     width: 100%;
     height: 150px;
-
-    /* Header / 2 */
     font-family: Poppins, sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 40px;
     line-height: 52px;
-
-    /* Neutrals/N800 */
     color: #172b4d;
     margin-bottom: 100px;
   }
 
   .paragraph {
     flex: 1;
-
-    /* Primary Text */
     width: 100%;
     height: 146px;
     margin-top: -90px;
-
-    /* Body / 2 */
     font-family: Poppins, sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 17px;
     line-height: 24px;
-
-    /* Neutrals/N600 */
     color: #344563;
   }
 
   .connect {
-    /* LET’S CONNECT */
     width: 300px;
     height: 24px;
-
-    /* Body / 2 - Bolder */
     font-family: Poppins, sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
-
-    /* Primary/B300 */
     color: #7f8cff;
-
-    /* Inside auto layout */
     flex: none;
     order: 0;
     flex-grow: 0;
@@ -265,7 +245,6 @@
     cursor: pointer;
   }
 
-  /* CARD WORK */
   .works {
     display: flex;
     flex-direction: column;
@@ -278,7 +257,7 @@
     flex-direction: row;
     padding: 25px;
     border-radius: 16px;
-    background: #fff;
+    background: #f4f4fc;
   }
 
   .cardwork-image {
@@ -307,7 +286,6 @@
   }
 
   .cardwork-title {
-    /* Project Title */
     width: 100%;
     height: 36px;
     font-family: Poppins, sans-serif;
@@ -315,8 +293,6 @@
     font-weight: 700;
     font-size: 32px;
     line-height: 44px;
-
-    /* Neutrals/N800 */
     color: #172b4d;
   }
 
@@ -327,133 +303,90 @@
   }
 
   .company {
-    /* Text */
     width: 55px;
     height: 16px;
     padding-left: 0;
     padding-right: 10px;
-
-    /* Caption / 1 - Bolder */
     font-family: Poppins, sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 13px;
     line-height: 16px;
-
-    /* Neutrals/N600 */
     color: #344563;
-
-    /* Inside auto layout */
     flex: none;
     order: 0;
     flex-grow: 0;
   }
 
   .job {
-    /* Text */
     width: 130px;
     height: 16px;
-
-    /* Caption / 1 - Bolder */
     font-family: Poppins, sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 13px;
     line-height: 16px;
-
-    /* Neutrals/N100 */
-    color: #7a869a;
-
-    /* Inside auto layout */
+    color: #4e5157;
     flex: none;
     order: 0;
     flex-grow: 0;
   }
 
   .year {
-    /* Text */
-
     width: 88px;
     height: 16px;
-
-    /* Caption / 1 - Bolder */
     font-family: Poppins, sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 13px;
     line-height: 16px;
-
-    /* Neutrals/N100 */
-    color: #7a869a;
-
-    /* Inside auto layout */
+    color: #232324;
     flex: none;
     order: 0;
     flex-grow: 0;
   }
 
   .desc {
-    /* Primary Text */
     width: 100%;
     padding-bottom: 20px;
-
-    /* Body / 3 */
     font-family: Poppins, sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 15px;
     line-height: 24px;
-
-    /* Neutrals/N600 */
     color: #344563;
-
-    /* Inside auto layout */
     flex: none;
     order: 1;
     flex-grow: 0;
   }
 
   .tags {
-    /* display: flex;
-    flex-direction: row; */
+    flex-direction: row;
     margin-bottom: 20px;
     list-style: none;
     padding-left: 0;
   }
 
   .tag {
-    /* Tag */
     float: left;
     text-align: center;
     margin-right: 20px;
     padding-top: 5px;
-
-    /* Auto layout */
     align-items: center;
     width: 53px;
     height: 24px;
-
-    /* Primary/B50 */
     background: #ebebff;
     border-radius: 8px;
-
-    /* Inside auto layout */
     flex: none;
     order: 0;
     flex-grow: 0;
-
-    /* Button / Small */
     font-family: Poppins, sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 12px;
     line-height: 16px;
-
-    /* identical to box height, or 133% */
     letter-spacing: 0.03em;
-
-    /* Primary/B400 */
-    color: #6070ff;
+    color: #2839d1;
   }
 
   .javascript {
@@ -467,30 +400,21 @@
   }
 
   .button {
-    /* Normal Button/Secondary/Enabled */
     margin-top: 2rem;
     box-sizing: border-box;
     position: absolute;
     top: 50px;
-
-    /* Auto layout */
     padding: 12px;
     gap: 10px;
     width: 124px;
     height: 48px;
-
-    /* Primary/B400 */
     border: 1px solid #6070ff;
     border-radius: 8px;
-
-    /* Button /Normal */
     font-family: Poppins, sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 17px;
     line-height: 24px;
-
-    /* Primary/B500 */
     color: #2455d1;
   }
 
@@ -562,31 +486,22 @@
   }
 
   .about-title {
-    /* Header / 2 */
     font-family: Poppins, sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 40px;
     line-height: 52px;
-
-    /* Neutrals/N800 */
     color: #172b4d;
   }
 
   .about-desc {
     flex: 1;
-
-    /* Primary Text */
     width: 100%;
-
-    /* Body / 2 */
     font-family: Poppins, sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
-
-    /* Neutrals/N600 */
     color: #344563;
   }
 
@@ -597,18 +512,13 @@
   }
 
   .about-connect {
-    /* LET’S CONNECT */
     width: 250px;
     height: 24px;
-
-    /* Body / 2 - Bolder */
     font-family: Poppins, sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
-
-    /* Primary/B300 */
     color: #7f8cff;
   }
 
@@ -623,30 +533,21 @@
   }
 
   .about-button {
-    /* Normal Button/Secondary/Enabled */
     box-sizing: border-box;
     position: absolute;
     top: 50px;
-
-    /* Auto layout */
     padding: 12px;
     margin-bottom: -25px;
     gap: 10px;
     width: 160px;
     height: 48px;
-
-    /* Primary/B400 */
     border: 1px solid #6070ff;
     border-radius: 8px;
-
-    /* Button /Normal */
     font-family: Poppins, sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 17px;
     line-height: 24px;
-
-    /* Primary/B500 */
     color: #6070ff;
   }
 
@@ -710,8 +611,6 @@
     padding: 15px;
     height: 66.72px;
     margin: 10px;
-
-    /* Neutrals/N10 */
     background: #ececec;
     border-radius: 8px;
   }
@@ -742,21 +641,16 @@
 
   .contact-me {
     height: 56px;
-
-    /* Header / 2 */
     font-family: Poppins, sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 40px;
     line-height: 52px;
     text-align: center;
-
-    /* Neutrals/N0 */
     color: #fff;
   }
 
   .contact-desc {
-    /* Primary Text */
     height: 102px;
     font-family: Poppins, sans-serif;
     font-style: normal;
@@ -764,11 +658,7 @@
     font-size: 20px;
     line-height: 28px;
     margin-top: 20px;
-
-    /* or 140% */
     text-align: center;
-
-    /* Primary/B50 */
     color: #ebebff;
   }
 
@@ -786,12 +676,9 @@
 
   .name,
   .email {
-    /* Mono/White */
     width: 90%;
     height: 48px;
     background: #fff;
-
-    /* Base/100 */
     border: 1px solid #cfd8dc;
     border-radius: 8px;
     padding: 8px;
@@ -800,12 +687,8 @@
     font-weight: 400;
     font-size: 17px;
     line-height: 20px;
-
-    /* or 118% */
     display: flex;
     align-items: center;
-
-    /* Neutral/N800 */
     color: #172b4d;
   }
 
@@ -815,16 +698,12 @@
     width: 90%;
     height: 170px;
     border-radius: 8px;
-
-    /* Input /Normal */
     font-family: Poppins, sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 15px;
     line-height: 24px;
-
-    /* Neutrals/N60 */
-    color: #b3bac5;
+    color: #2c2c2c;
   }
 
   .contact-button-container {
@@ -843,14 +722,7 @@
   }
 }
 
-/* ---- VERSION FOR BIG SCREEN ---- */
-
 @media only screen and (min-width: 1200px) {
-  body {
-    font-family: Poppins, sans-serif;
-    background: #e5e5e5;
-  }
-
   .container {
     width: 100%;
     height: 100%;
@@ -883,42 +755,6 @@
     padding-right: 20px;
   }
 
-  .logo {
-    /* MY LOGO */
-    width: 76px;
-    height: 20px;
-    font-family: Poppins, sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 20px;
-
-    /* flex */
-    display: flex;
-    align-items: center;
-    text-align: center;
-
-    /* Primary/B400 */
-    color: #6070ff;
-
-    /* Inside auto layout */
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-    padding-top: 3px;
-    margin-left: 15px;
-    text-decoration: none;
-  }
-
-  .logo:hover {
-    color: gray;
-    cursor: pointer;
-  }
-
-  nav > i {
-    padding-right: 20px;
-  }
-
   .tab-title > i {
     margin-right: 50px;
   }
@@ -947,58 +783,39 @@
 
   .title {
     flex: 1;
-
-    /* Primary Text */
     width: 100%;
     height: 150px;
-
-    /* Header / 2 */
     font-family: Poppins, sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 40px;
     line-height: 52px;
-
-    /* Neutrals/N800 */
     color: #172b4d;
     margin-bottom: 100px;
   }
 
   .paragraph {
     flex: 1;
-
-    /* Primary Text */
     width: 100%;
     height: 146px;
     margin-top: -90px;
-
-    /* Body / 2 */
     font-family: Poppins, sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 17px;
     line-height: 24px;
-
-    /* Neutrals/N600 */
     color: #344563;
   }
 
   .connect {
-    /* LET’S CONNECT */
     width: 300px;
     height: 24px;
-
-    /* Body / 2 - Bolder */
     font-family: Poppins, sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
-
-    /* Primary/B300 */
     color: #7f8cff;
-
-    /* Inside auto layout */
     flex: none;
     order: 0;
     flex-grow: 0;
@@ -1055,8 +872,6 @@
     cursor: pointer;
   }
 
-  /* CARD WORK */
-
   .works {
     display: flex;
     flex-direction: column;
@@ -1096,7 +911,6 @@
   }
 
   .cardwork-title {
-    /* Project Title */
     width: 100%;
     height: 36px;
     font-family: Poppins, sans-serif;
@@ -1104,8 +918,6 @@
     font-weight: 700;
     font-size: 32px;
     line-height: 44px;
-
-    /* Neutrals/N800 */
     color: #172b4d;
   }
 
@@ -1116,133 +928,90 @@
   }
 
   .company {
-    /* Text */
     width: 55px;
     height: 16px;
     padding-left: 0;
     padding-right: 10px;
-
-    /* Caption / 1 - Bolder */
     font-family: Poppins, sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 13px;
     line-height: 16px;
-
-    /* Neutrals/N600 */
     color: #344563;
-
-    /* Inside auto layout */
     flex: none;
     order: 0;
     flex-grow: 0;
   }
 
   .job {
-    /* Text */
     width: 130px;
     height: 16px;
-
-    /* Caption / 1 - Bolder */
     font-family: Poppins, sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 13px;
     line-height: 16px;
-
-    /* Neutrals/N100 */
-    color: #363c46;
-
-    /* Inside auto layout */
+    color: #27282b;
     flex: none;
     order: 0;
     flex-grow: 0;
   }
 
   .year {
-    /* Text */
-
     width: 88px;
     height: 16px;
-
-    /* Caption / 1 - Bolder */
     font-family: Poppins, sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 13px;
     line-height: 16px;
-
-    /* Neutrals/N100 */
-    color: #7a869a;
-
-    /* Inside auto layout */
+    color: #2a2b2c;
     flex: none;
     order: 0;
     flex-grow: 0;
   }
 
   .desc {
-    /* Primary Text */
     width: 100%;
     padding-bottom: 20px;
-
-    /* Body / 3 */
     font-family: Poppins, sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 15px;
     line-height: 24px;
-
-    /* Neutrals/N600 */
     color: #344563;
-
-    /* Inside auto layout */
     flex: none;
     order: 1;
     flex-grow: 0;
   }
 
   .tags {
-    /* display: flex;
-    flex-direction: row; */
+    flex-direction: row;
     margin-bottom: 20px;
     list-style: none;
     padding-left: 0;
   }
 
   .tag {
-    /* Tag */
     float: left;
     text-align: center;
     margin-right: 20px;
     padding-top: 5px;
-
-    /* Auto layout */
     align-items: center;
     width: 53px;
     height: 24px;
-
-    /* Primary/B50 */
     background: #ebebff;
     border-radius: 8px;
-
-    /* Inside auto layout */
     flex: none;
     order: 0;
     flex-grow: 0;
-
-    /* Button / Small */
     font-family: Poppins, sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 12px;
     line-height: 16px;
-
-    /* identical to box height, or 133% */
     letter-spacing: 0.03em;
-
-    /* Primary/B400 */
-    color: #6070ff;
+    color: #1827b3;
   }
 
   .javascript {
@@ -1250,36 +1019,26 @@
   }
 
   .button-container {
-    /* position: relative; */
     width: 80%;
     margin-left: 0;
     align-self: start;
   }
 
   .button {
-    /* Normal Button/Secondary/Enabled */
     box-sizing: border-box;
     position: absolute;
     top: 50px;
-
-    /* Auto layout */
     padding: 12px;
     gap: 10px;
     width: 124px;
     height: 48px;
-
-    /* Primary/B400 */
     border: 1px solid #6070ff;
     border-radius: 8px;
-
-    /* Button /Normal */
     font-family: Poppins, sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 17px;
     line-height: 24px;
-
-    /* Primary/B500 */
     color: #1a48bd;
   }
 
@@ -1347,31 +1106,22 @@
   }
 
   .about-title {
-    /* Header / 2 */
     font-family: Poppins, sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 40px;
     line-height: 52px;
-
-    /* Neutrals/N800 */
     color: #172b4d;
   }
 
   .about-desc {
     flex: 1;
-
-    /* Primary Text */
     width: 100%;
-
-    /* Body / 2 */
-    font-family: Poppins, sans-serif;
+    font-family: " Poppins", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
-
-    /* Neutrals/N600 */
     color: #344563;
   }
 
@@ -1383,18 +1133,13 @@
   }
 
   .about-connect {
-    /* LET’S CONNECT */
     width: 250px;
     height: 24px;
-
-    /* Body / 2 - Bolder */
-    font-family: Poppins, sans-serif;
+    font-family: " Poppins", sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
-
-    /* Primary/B300 */
     color: #7f8cff;
   }
 
@@ -1403,30 +1148,19 @@
   }
 
   .about-button {
-    /* Normal Button/Secondary/Enabled */
     box-sizing: border-box;
-
-    /* Auto layout */
     padding: 12px;
     margin-bottom: -25px;
     gap: 10px;
-
-    /* position: absolute; */
     width: 170px;
     height: 48px;
-
-    /* Primary/B400 */
     border: 1px solid #6070ff;
     border-radius: 8px;
-
-    /* Button /Normal */
     font-family: Poppins, sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 17px;
     line-height: 24px;
-
-    /* Primary/B500 */
     color: #396df2;
   }
 
@@ -1485,8 +1219,6 @@
     padding: 15px;
     height: 66.72px;
     margin: 10px;
-
-    /* Neutrals/N10 */
     background: #ececec;
     border-radius: 8px;
   }
@@ -1518,21 +1250,16 @@
 
   .contact-me {
     height: 56px;
-
-    /* Header / 2 */
     font-family: Poppins, sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 40px;
     line-height: 52px;
     text-align: center;
-
-    /* Neutrals/N0 */
     color: #fff;
   }
 
   .contact-desc {
-    /* Primary Text */
     height: 102px;
     font-family: Poppins, sans-serif;
     font-style: normal;
@@ -1540,11 +1267,7 @@
     font-size: 20px;
     line-height: 28px;
     margin-top: 20px;
-
-    /* or 140% */
     text-align: center;
-
-    /* Primary/B50 */
     color: #ebebff;
   }
 
@@ -1562,12 +1285,9 @@
 
   .name,
   .email {
-    /* Mono/White */
     width: 90%;
     height: 48px;
     background: #fff;
-
-    /* Base/100 */
     border: 1px solid #cfd8dc;
     border-radius: 8px;
     padding: 8px;
@@ -1576,12 +1296,8 @@
     font-weight: 400;
     font-size: 17px;
     line-height: 20px;
-
-    /* or 118% */
     display: flex;
     align-items: center;
-
-    /* Neutral/N800 */
     color: #172b4d;
   }
 
@@ -1591,16 +1307,12 @@
     width: 90%;
     height: 170px;
     border-radius: 8px;
-
-    /* Input /Normal */
     font-family: Poppins, sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 15px;
     line-height: 24px;
-
-    /* Neutrals/N60 */
-    color: #b3bac5;
+    color: #353638;
   }
 
   .contact-button-container {
@@ -1619,7 +1331,6 @@
   }
 }
 
-/* --- VERSION FOR VERY BIG SCREEN --- */
 @media only screen and (min-width: 1600px) {
   .background {
     width: 100%;

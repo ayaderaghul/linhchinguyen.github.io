@@ -66,7 +66,7 @@ body {
 
 #navigation .hamburger i {
   font-size: 24px;
-  color: #344563;
+  color: #072af5;
   cursor: pointer;
 }
 
@@ -149,39 +149,27 @@ nav {
 
 .title {
   flex: 1;
-
-  /* Primary Text */
   width: 100%;
   height: 150px;
-
-  /* Header / 2 */
   font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
-
-  /* Neutrals/N800 */
   color: #172b4d;
   margin-bottom: 100px;
 }
 
 .paragraph {
   flex: 1;
-
-  /* Primary Text */
   width: 100%;
   height: 146px;
   margin-top: -90px;
-
-  /* Body / 2 */
   font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 17px;
   line-height: 24px;
-
-  /* Neutrals/N600 */
   color: #344563;
 }
 
@@ -191,21 +179,14 @@ nav {
 }
 
 .connect {
-  /* LET’S CONNECT */
   width: 300px;
   height: 24px;
-
-  /* Body / 2 - Bolder */
   font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
-
-  /* Primary/B300 */
   color: #7f8cff;
-
-  /* Inside auto layout */
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -256,8 +237,6 @@ nav {
   cursor: pointer;
 }
 
-/* CARD WORK */
-
 .space {
   width: 100%;
   height: 114px;
@@ -272,10 +251,7 @@ nav {
 }
 
 .cardwork {
-  /* Card Works */
   box-sizing: border-box;
-
-  /* Auto layout */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -283,11 +259,7 @@ nav {
   gap: 12px;
   width: 100%;
   height: 900px;
-
-  /* Neutrals/N0 */
   background: #fff;
-
-  /* Neutrals/N40 */
   border: 1px solid #dfe1e6;
   border-radius: 16px;
   padding-bottom: 90px;
@@ -323,7 +295,6 @@ nav {
 }
 
 .cardwork-title {
-  /* Project Title */
   width: 100%;
   height: 36px;
   font-family: Poppins, sans-serif;
@@ -332,8 +303,6 @@ nav {
   font-size: 32px;
   line-height: 44px;
   margin-bottom: 10px;
-
-  /* Neutrals/N800 */
   color: #172b4d;
 }
 
@@ -348,86 +317,58 @@ nav {
 }
 
 .company {
-  /* Text */
   width: 55px;
   height: 16px;
   padding-left: 0;
   padding-right: 10px;
-
-  /* Caption / 1 - Bolder */
   font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 13px;
   line-height: 16px;
-
-  /* Neutrals/N600 */
   color: #344563;
-
-  /* Inside auto layout */
   flex: none;
   order: 0;
   flex-grow: 0;
 }
 
 .job {
-  /* Text */
   height: 16px;
-
-  /* Caption / 1 - Bolder */
   font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 13px;
   line-height: 16px;
-
-  /* Neutrals/N100 */
   color: #7a869a;
-
-  /* Inside auto layout */
   flex: none;
   order: 0;
   flex-grow: 0;
 }
 
 .year {
-  /* Text */
   width: 88px;
   height: 16px;
-
-  /* Caption / 1 - Bolder */
   font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 13px;
   line-height: 16px;
-
-  /* Neutrals/N100 */
   color: #7a869a;
-
-  /* Inside auto layout */
   flex: none;
   order: 0;
   flex-grow: 0;
 }
 
 .desc {
-  /* Primary Text */
   width: 295px;
   height: 76px;
   padding-bottom: 20px;
-
-  /* Body / 3 */
   font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
   line-height: 24px;
-
-  /* Neutrals/N600 */
   color: #344563;
-
-  /* Inside auto layout */
   flex: none;
   order: 1;
   flex-grow: 0;
@@ -440,37 +381,24 @@ nav {
 }
 
 .tag {
-  /* Tag */
   float: left;
   text-align: center;
   margin-right: 20px;
   padding-top: 5px;
-
-  /* Auto layout */
   align-items: center;
   width: 53px;
   height: 24px;
-
-  /* Primary/B50 */
   background: #ebebff;
   border-radius: 8px;
-
-  /* Inside auto layout */
   flex: none;
   order: 0;
   flex-grow: 0;
-
-  /* Button / Small */
   font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
   line-height: 16px;
-
-  /* identical to box height, or 133% */
   letter-spacing: 0.03em;
-
-  /* Primary/B400 */
   color: #6070ff;
 }
 
@@ -484,34 +412,23 @@ nav {
 }
 
 .button {
-  /* Normal Button/Secondary/Enabled */
   box-sizing: border-box;
   position: absolute;
   top: 100px;
-
-  /* Auto layout */
   display: flex;
   flex-direction: row;
   align-items: center;
   padding: 12px;
   gap: 10px;
-
-  /* position: absolute; */
   width: 124px;
   height: 48px;
-
-  /* Primary/B400 */
   border: 1px solid #6070ff;
   border-radius: 8px;
-
-  /* Button /Normal */
   font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
   line-height: 24px;
-
-  /* Primary/B500 */
   color: #6070ff;
   margin-top: 10px;
   margin-left: 10%;
@@ -572,42 +489,28 @@ nav {
 
 .about-title {
   flex: 1;
-
-  /* Primary Text */
   width: 327px;
   height: 101px;
-
-  /* Header / 2 */
   font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
-
-  /* or 130% */
   display: flex;
   align-items: center;
-
-  /* Neutrals/N800 */
   color: #172b4d;
 }
 
 .about-desc {
   margin-top: -30px;
   flex: 1;
-
-  /* Primary Text */
   width: 100%;
   height: 144px;
-
-  /* Body / 2 */
   font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-
-  /* Neutrals/N600 */
   color: #344563;
 }
 
@@ -617,21 +520,14 @@ nav {
 }
 
 .about-connect {
-  /* LET’S CONNECT */
   width: 300px;
   height: 24px;
-
-  /* Body / 2 - Bolder */
   font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
-
-  /* Primary/B300 */
   color: #7f8cff;
-
-  /* Inside auto layout */
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -650,35 +546,24 @@ nav {
 }
 
 .about-button {
-  /* Normal Button/Secondary/Enabled */
   box-sizing: border-box;
   position: absolute;
   top: -90px;
-
-  /* Auto layout */
   display: flex;
   flex-direction: row;
   align-items: center;
   padding: 12px;
   margin-bottom: -25px;
   gap: 10px;
-
-  /* position: absolute; */
   width: 170px;
   height: 48px;
-
-  /* Primary/B400 */
   border: 1px solid #6070ff;
   border-radius: 8px;
-
-  /* Button /Normal */
   font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
   line-height: 24px;
-
-  /* Primary/B500 */
   color: #396df2;
 }
 
@@ -733,8 +618,6 @@ nav {
   padding: 5px 0;
   height: 66.72px;
   margin: 5px 36px 7px 6px;
-
-  /* Neutrals/N10 */
   background: #ececec;
   border-radius: 8px;
   padding-left: 15px;
@@ -763,21 +646,16 @@ nav {
 
 .contact-me {
   height: 56px;
-
-  /* Header / 2 */
   font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
   text-align: center;
-
-  /* Neutrals/N0 */
   color: #fff;
 }
 
 .contact-desc {
-  /* Primary Text */
   height: 102px;
   font-family: Poppins, sans-serif;
   font-style: normal;
@@ -785,11 +663,7 @@ nav {
   font-size: 20px;
   line-height: 28px;
   margin-top: -30px;
-
-  /* or 140% */
   text-align: center;
-
-  /* Primary/B50 */
   color: #ebebff;
 }
 
@@ -803,12 +677,9 @@ nav {
 
 .name,
 .email {
-  /* Mono/White */
   width: 90%;
   height: 48px;
   background: #fff;
-
-  /* Base/100 */
   border: 1px solid #cfd8dc;
   border-radius: 8px;
   padding: 8px;
@@ -817,12 +688,8 @@ nav {
   font-weight: 400;
   font-size: 17px;
   line-height: 20px;
-
-  /* or 118% */
   display: flex;
   align-items: center;
-
-  /* Neutral/N800 */
   color: #172b4d;
 }
 
@@ -832,15 +699,11 @@ nav {
   width: 90%;
   height: 170px;
   border-radius: 8px;
-
-  /* Input /Normal */
   font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
   line-height: 24px;
-
-  /* Neutrals/N60 */
   color: #b3bac5;
 }
 
